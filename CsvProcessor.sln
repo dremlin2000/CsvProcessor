@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsvProcessor.Core", "CsvProcessor.Core\CsvProcessor.Core.csproj", "{455CAECE-F45A-47E8-A8B6-DED04BD770A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsvProcessor.AppService", "CsvProcessor.AppService\CsvProcessor.AppService.csproj", "{A6156B8D-01A2-4D5E-8ED8-6DE63CFBB143}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsvProcessor.ConsoleApp", "CsvProcessor.ConsoleApp\CsvProcessor.ConsoleApp.csproj", "{ED3F8848-ED70-440F-A07C-566CF43088BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{A801AB1F-4740-4890-83ED-160BCC8B6894}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data.EFRepository.Base", "Common\Data.EFRepository.Base\Data.EFRepository.Base.csproj", "{B092EE55-3431-47E1-B8A1-E31076912EFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data.Repository.Base", "Common\Data.Repository.Base\Data.Repository.Base.csproj", "{47EBCFA2-5241-4E0D-9A35-9BE6BEDF7BE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsvProcessor.Repository", "CsvProcessor.Repository\CsvProcessor.Repository.csproj", "{A0EB24DE-8088-4950-AF65-389D835C405F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{455CAECE-F45A-47E8-A8B6-DED04BD770A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{455CAECE-F45A-47E8-A8B6-DED04BD770A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{455CAECE-F45A-47E8-A8B6-DED04BD770A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{455CAECE-F45A-47E8-A8B6-DED04BD770A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6156B8D-01A2-4D5E-8ED8-6DE63CFBB143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6156B8D-01A2-4D5E-8ED8-6DE63CFBB143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6156B8D-01A2-4D5E-8ED8-6DE63CFBB143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6156B8D-01A2-4D5E-8ED8-6DE63CFBB143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED3F8848-ED70-440F-A07C-566CF43088BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED3F8848-ED70-440F-A07C-566CF43088BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED3F8848-ED70-440F-A07C-566CF43088BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED3F8848-ED70-440F-A07C-566CF43088BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B092EE55-3431-47E1-B8A1-E31076912EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B092EE55-3431-47E1-B8A1-E31076912EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B092EE55-3431-47E1-B8A1-E31076912EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B092EE55-3431-47E1-B8A1-E31076912EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47EBCFA2-5241-4E0D-9A35-9BE6BEDF7BE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47EBCFA2-5241-4E0D-9A35-9BE6BEDF7BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47EBCFA2-5241-4E0D-9A35-9BE6BEDF7BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47EBCFA2-5241-4E0D-9A35-9BE6BEDF7BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0EB24DE-8088-4950-AF65-389D835C405F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0EB24DE-8088-4950-AF65-389D835C405F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0EB24DE-8088-4950-AF65-389D835C405F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0EB24DE-8088-4950-AF65-389D835C405F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B092EE55-3431-47E1-B8A1-E31076912EFC} = {A801AB1F-4740-4890-83ED-160BCC8B6894}
+		{47EBCFA2-5241-4E0D-9A35-9BE6BEDF7BE2} = {A801AB1F-4740-4890-83ED-160BCC8B6894}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F258899-1292-446C-A21A-99AAB243F67B}
+	EndGlobalSection
+EndGlobal
